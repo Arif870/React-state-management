@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const Child1 = () => {
-    const [count, setCount] = useState(0)
+const Child1 = ({count, setCount}) => {
+    
     return (
         <div className='border w-4/5 mx-auto p-4 mt-10 rounded-md h-32'>
             <span className='bg-green-100 text-green-800 px-3 py-1 rounded-full'>1</span>.
